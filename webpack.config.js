@@ -127,17 +127,17 @@ module.exports = {
             '__param': 'ts-helper/param',
             'Reflect': 'es7-reflect-metadata/dist/browser'
         }),
-        new UglifyJsPlugin({
-            beautify: false,
-            mangle: false,
-            comments: false,
-            compress : {
-                screw_ie8 : true
-            },
-            //mangle: {
-            //  screw_ie8 : true
-            //}
-        }),
+        //new UglifyJsPlugin({
+        //    beautify: false,
+        //    mangle: false,
+        //    comments: false,
+        //    compress : {
+        //        screw_ie8 : true
+        //    },
+        //    //mangle: {
+        //    //  screw_ie8 : true
+        //    //}
+        //}),
 
     ],
 
